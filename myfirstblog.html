@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+<body>
+    <!--headings-->
+    <!-- <h1>This is an h1!</h1>
+    <h2>This is an h2!</h2>
+    <h3>This is an h3!</h3> -->
+
+    <!--paragraph-->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facilis mollitia magni enim, nemo omnis ipsam illum obcaecati iure vero? 
+        Nisi corrupti optio natus sequi nihil! Nesciunt impedit architecto esse?</p> -->
+
+    <!--a tag-->
+    <!-- <a href="index.html">Home</a>
+    <a href="https://frontendmasters.com/courses/web-development-v3/common-html-tags/">Front Masters: Tags</a> -->
+
+    <!--div-->
+    <!-- <div style="width: 100px; height: 100px; background-color: aquamarine;">
+        <h1>hi!</h1>
+    </div> -->
+
+    <!-- <div>
+        <h1>hi!</h1>
+    </div> -->
+
+    <!--span-->
+    <!-- <p>This is <span style="text-decoration: underline;">important</span>text</p> -->
+
+    <!--ol, ul and li-->
+    <!-- <ol>
+        <li>The first one!</li>
+        <li>The second one!</li>
+        <li>The third one!</li>
+    </ol>
+
+    <ul>
+        <li>The first one!</li>
+        <li>The second one!</li>
+        <li>The third one!</li>
+    </ul> -->
+
+    <!--button-->
+    <!-- <button>Click me! I don't do anything!</button> -->
+
+    <!--image-->
+    <!-- <img src="" alt="Here web site will have the image!"/> -->
+
+    <!--input, textarea and select option-->
+    <!-- <input/>
+    
+    <input type="text"/>
+
+    <input type="color"/>
+
+    <input type="file"/>
+
+    <input type="number"/>
+
+    <input type="datetime-local"/>
+
+    <input type="radio"/>
+
+    <input type="checkbox"/>
+
+    <textarea></textarea>
+
+    <select>
+        <option value="Paris">Paris</option>
+        <option value="New Orleans">New Orleans</option>
+        <option value="Portland">Portland</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="Seattle">Seattle</option>
+    </select> -->
+
+    <!--form-->
+    <!-- <form>
+        <input type="text" placeholder="First Name"/>
+        <input type="text" placeholder="Last Name"/>
+
+        <select>
+            <option value="New Orleans">New Orleans</option>
+            <option value="Portland">Portland</option>
+            <option value="San Francisco">San Francisco</option>
+        </select>
+    </form> -->
+
+    <!--making a table-->
+    <!-- <table>
+        <thead>
+            <tr>
+                <td>Names</td>
+                <td>Points</td>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Team Awesome</td>
+            <td>50 Points</td>
+          </tr>
+          <tr>
+            <td>Team Nice</td>
+            <td>34 Points</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+    <!--marque old style, not used in real project-->
+    <!-- <marquee behavior="" direction="">This is a really old feature that only works in some browsers. You should
+        never use it for a real website.
+    </marquee> -->
+
+    <!--correct arrangement of 2 p's, not using br (br is not used in the modern coding)-->
+    <!-- <p>This is some text.</p>
+
+    <p>This is some more text.</p>
+
+    <img src="img/photo_2024-05-18_09-58-37.jpg" alt="This is website photo"> -->
+
+    <!--class-->
+    <!-- <h3 class="the-red-one">This one is red</h3>
+    <h3 class="the-blue-one">This one is blue</h3>
+
+    <h3 class="the-red-one">This is also red.</h3>
+
+    <style>
+    /*it's CSS */
+    .the-red-one {
+        color: red;
+    }
+
+    .the-blue-one {
+        color: blue;
+    }
+    </style>
+
+    <h3 class="the-red-one bolded">This is red and bold</h3>
+
+    <style>
+    .bolded {
+        font-weight: bold;
+    }
+    </style> -->
+
+    <!--ID-->
+    <!-- <h3 id="brand">My Site's Branding</h3> -->
+
+    <!--making an img be a link-->
+    <!-- <a href="https://frontendmasters.com/courses/web-development-v3/attributes-classes-ids/"><img src="img/photo_2024-05-18_09-58-37.jpg" alt=""></a> -->
+
+    <!--Organizing HTML-->
+
+    <!--nav bar, specific for navigation, in which user can navigate around the website-->
+
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-list-item">
+                <!--href="/nes" it would take you to www.example.com/news. It's relative to the base URL. 
+                The leading slash means it's always www.example.com/news no matter where you are on the site.-->
+                <a class="nav-link" href="/news">Newsfeed</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--more accurate code with class-->
+     <div class="social-post">
+        <h2 class="user-name">@sassy_pants_mcgee</h2>
+        <h3 class="posted-date">Posted 15 minutes ago</h3>
+        <img class="profile-picture" src="img/dog25.jpg" alt="a doggy">
+     </div>
+     <p class="social-post-text">You ever think about barking out the window?
+        What would happen if I didn't bark at them. 
+        Keeps me up at night. 
+     </p>
+
+     <!--article more specific for documentataion, as a unit of information-->
+     <!-- <article class="social-post">
+        <h2 class="user-name">@sassy_pants_mcgee</h2>
+        <h3 class="posted-date">Posted 15 minutes ago</h3>
+        <img class="profile-picture" src="img/photo_2024-05-18_09-58-37.jpg" alt="a panda">
+     </article>
+     <p class="social-post-text">You ever think about barking out the window?
+        What would happen if I didn't bark at them. 
+        Keeps me up at night. 
+     </p> -->
+
+     <!--section macro unit of the website, can use div and other tags but there is more specific semantic style tags like a labelling sytem 
+    for keeping a track of everything-->
+     <!-- <section class="social-post">
+        <h2 class="user-name">@sassy_pants_mcgee</h2>
+        <h3 class="posted-date">Posted 15 minutes ago</h3>
+        <img class="profile-picture" src="img/photo_2024-05-18_09-58-37.jpg" alt="a panda">
+     </section>
+     <p class="social-post-text">You ever think about barking out the window?
+        What would happen if I didn't bark at them. 
+        Keeps me up at night. 
+     </p> -->
+
+     <div class="social-post">
+        <h2 class="user-name">@TrailCurious</h2>
+        <h3 class="posted-date">Posted 18 minutes ago</h3>
+        <img class="profile-picture" src="img/photo_2024-05-18_11-48-43.jpg" alt="a doggy">
+     </div>
+     <p class="social-post-text">
+        You ever notice that white bit of fluff behind you ? Is that just me ? 
+        always try to chase it but it's always gets away. #ScaryTails
+     </p>
+
+     <div class="social-post">
+        <h2 class="user-name">@haveUrCakeAndEatIt2</h2>
+        <h3 class="posted-date">Posted 21 minutes ago</h3>
+        <img class="profile-picture" src="img/dog27.jpg" alt="a doggy">
+     </div>
+     <p class="social-post-text">#BirthdayGrrrrrrrrrrl</p>
+
+</body>
+</html>
